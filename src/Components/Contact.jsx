@@ -27,7 +27,7 @@ function Contact() {
             <div className='email-wrapper'>
               <div className='email'>Email</div>
               <div className='address'>
-                <a href='mailto:contact@talei.com'>contact@talei.com</a>
+                <a href='mailto:contact@talei.com'>talei@iamtalei.com</a>
               </div>
             </div>
             <div className='calendly'>
