@@ -1,0 +1,41 @@
+.timeline-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: var(--onyx);
+  border-radius: 10px;
+
+}
+
+.timestamp-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 100%;
+  height: 100%;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.timestamp-date {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.timestamp-text {
+  font-size: .8em;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.next-btn {
+  margin-right: -15px;
+}
+
+.prev-btn {
+  margin-left: -50px;
+}

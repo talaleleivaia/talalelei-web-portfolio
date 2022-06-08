@@ -1,0 +1,92 @@
+.navbar-wrapper {
+  background-color: var(--blue);
+  top: 0px;
+  position: fixed;
+  width: 90%;
+  padding-right: 20px;
+  display: flex;
+  z-index: 99999;
+  max-width: 1300px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.navbar-left{
+display: flex;
+padding-left: 55px;
+/* cursor: pointer; */
+}
+
+.navbar-left h1 {
+  cursor: pointer;
+}
+
+.home-link {
+  cursor: poiner;
+}
+
+.navbar-right {
+  display: flex;
+  padding-right: 45px;
+}
+
+.links {
+  position: relative;
+  padding: 30px;
+}
+
+/* .links:hover {
+  color: var(--pink);
+} */
+
+
+/* Hover Styles for the Navbar Links */
+.btn-99 {
+  --margin: 10%;
+
+  display: inline;
+  cursor: pointer;
+  position: relative;
+
+  clip-path: polygon(
+    calc(-1 * var(--margin)) 0,
+    calc(100% + var(--margin)) 0,
+    calc(100% + var(--margin)) 100%,
+    calc(-1 * var(--margin)) 100%
+  );
+
+  transition: 0.2s;
+}
+
+.btn-99:hover {
+  color: var(--pink);
+  transform: scale(1.1);
+}
+
+.btn-99:before {
+  content: "";
+  width: calc(100% + 2 * var(--margin));
+  height: 2px;
+
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: -100%;
+
+  background: var(--pink);
+  transition: 0.2s;
+}
+.btn-99:hover:before {
+  transform: translate(calc(100% - 2 * var(--margin)), -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-wrapper {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,23 @@
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 35px;
+  grid-row-gap: 45px;
+  place-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat( 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 45px;
+    place-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

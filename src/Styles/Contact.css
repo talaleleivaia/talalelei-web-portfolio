@@ -1,0 +1,87 @@
+.contact-wrapper {  
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "contact-left contact-right";
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.contact-left {
+  grid-area: contact-left;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+  grid-area: contact-right;
+  background-color: var(--onyx);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+
+.contact-text-1 {
+  font-size: 3vw;
+  font-weight: 200;
+}
+
+.contact-text-2 {
+  font-size: 6vw;
+  font-weight: 700;
+}
+
+.contact-text-3 {
+  font-size: .8vw;
+}
+
+.email-wrapper {
+  font-size: 1.4em;
+  padding: 20px;
+}
+
+.email {
+  font-size: .8em;
+  font-weight: 200;
+}
+
+.address {
+  font-weight: 500;
+}
+
+a:link{
+  color: var(--blue);
+  /* text-decoration: none; */
+}
+
+.calendly {
+  padding: 20px;
+}
+
+.calendly a:visited{
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.contact-social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.contact-icon {
+  padding: 25px;
+}
+

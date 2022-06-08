@@ -1,0 +1,41 @@
+.tech-subtitle {
+  width: 70%;
+  margin-top: 0px;
+}
+.tech-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+}
+
+.stack-wrapper {
+  padding: 25px;
+  
+}
+
+.stack-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.stack-list {
+  margin-top: 0px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.stack-wrapper p {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+/* For Mobile */
+@media screen and (max-width: 600px) {
+  .tech-subtitle{
+    width: 100%;
+  }
+  .tech-wrapper {
+    flex-direction: column;
+  }
+}

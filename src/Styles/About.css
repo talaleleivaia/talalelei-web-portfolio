@@ -1,0 +1,55 @@
+.about-wrapper {
+  display: grid; 
+  grid-template-columns: 1.5fr .5fr; 
+  gap: 25px 20px; 
+  grid-template-areas: 
+    "about-left about-right";
+    margin-top: 25px;
+}
+
+.about-right {
+  grid-area: about-right;
+  height: 100%;
+  width: 90%;
+  text-align: justify;
+}
+
+.about-right p {
+  line-height: 32px;
+  word-spacing: 7px;
+}
+
+.about-right span {
+  font-weight: 700;
+  font-style: italic;
+  word-spacing: -2px;
+}
+
+.about-left {
+  grid-area: about-left;
+  height: 115%;
+  width: 100%;
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/0f8316143409441.62a0c41f32d62.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 50px;
+
+}
+
+.timeline-wrapper {
+  grid-area: timeline-wrapper;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+
+/* Mobile Screens*/
+@media screen and (max-width: 600px) {
+  .about-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+}

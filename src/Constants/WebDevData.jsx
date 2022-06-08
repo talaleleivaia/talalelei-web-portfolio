@@ -1,0 +1,57 @@
+const WebDevData = [
+    {
+        id: 0,
+        src: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/6894d8143409441.628c925044e6d.png',
+        git: 'https://github.com/talaleleivaia/gamescape',
+        site: 'https://tqv-gamescape.herokuapp.com/',
+        title: 'GameScape',
+        tool: 'ReactJS, NodeJS, API Calls',
+        description: 'Built with React on the frontend and a javascript API on the back. This site showcases some text-based adventure games playable in the browser. The games were built using Inkle\'s ink scripting language.',
+      },
+      {
+        id: 1,
+        src: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/1e5775143409441.628c925045369.png',
+        git: 'https://github.com/talaleleivaia/fantastic-fries',
+        site: '',
+        title: 'Fantastic Fries',
+        tool:'HTML5, CSS',
+        description: 'This is a restaurant site built using HTML and CSS. I built the site as a project while learning web development through the Bottega University Full Stack Certification bootcamp.'
+      },
+      {
+        id: 2,
+        src: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/9c622d143409441.628c9250458ac.png',
+        git: 'https://github.com/talaleleivaia/react-tutorial-trvl',
+        site: 'https://react-tutorial-trvl.herokuapp.com/',
+        title: 'TRVL',
+        tool:'ReactJS, NodeJS, API Calls',
+        description: 'This is a practice site I built that reflects a travel company and what they might need in a web app. It was a turorial I followed to practice using React JS',
+      },
+      {
+        id: 3,
+        src: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/db10a1143409441.628c925045e54.png',
+        git: '',
+        site: '',
+        title: 'Cerca La Playa',
+        tool:'ReactJS',
+        description: 'I built this site as practice using ReactJS. It is a mock hotel website where the user finds a landing page and some cards that show the available rooms to be booked.',
+      },
+      // {
+      //   id: 4,
+      //   src: '',
+      //   git: '',
+      //   site: '',
+      //   title: '',
+      //   tool:'',
+      //   description: '',
+      // },
+      // {
+      //   id: 5,
+      //   src: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/91c491143409441.627a41c8c088f.jpg',
+      //   git: '',
+      //   site: '',
+      //   title: 'MySweetDonut',
+      //   tool:'ReactJS API Calls',
+      //   description: 'Here is some client work. I built this landing page for a client who bakes and sells donuts once a week. The site allows for their clients to join a notification list so they know when donuts will be ready to order.',
+      // },
+  ]
+  export default WebDevData;
